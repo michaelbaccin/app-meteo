@@ -28,7 +28,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Andrew Mead'
+        name: 'Michael Baccin',
     })
 })
 
@@ -89,7 +89,7 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew Mead',
+        name: 'Michael Baccin',
         errorMessage: 'Help article not found.'
     })
 })
@@ -97,7 +97,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew Mead',
+        name: 'Michael Baccin',
         errorMessage: 'Page not found.'
     })
 })
