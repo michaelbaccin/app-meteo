@@ -15,7 +15,7 @@ const weatherForm=document.querySelector('form')
 const localita = document.querySelector('input')
 const messageOne=document.querySelector('#messageOne')
 const messageTwo= document.querySelector('#messageTwo')
-
+const messageTree = document.querySelector('#messageTree')
 
 
 //parlo con il file
