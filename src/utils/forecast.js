@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback)=>{
         else {
             callback(undefined,
                 body.current.weather_descriptions[0] + '. Attualmente ci sono ' + body.current.temperature + ' gradi. Sono percepiti ' + body.current.feelslike + ' gradi. ' +
-                'L\'umidità percepita è del '+ body.current.humidity + ' %')
+                'L\'umidità percepita è del '+ body.current.humidity + '  %')
 
         }
     })
